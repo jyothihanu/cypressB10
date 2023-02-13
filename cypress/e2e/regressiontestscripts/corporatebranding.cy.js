@@ -1,4 +1,3 @@
-
 import loginPage from '../../pageobjects/loginpage.po'
 
 const login = new loginPage()
@@ -34,7 +33,7 @@ describe('Validate Orange HRM Login functionality', function() {
 
     cy.visit("/web/index.php/time/viewEmployeeTimesheet")
 
-    cy.wait(2000)
+    cy.wait(3000)
 
     //cy.contains("Time").click()
 

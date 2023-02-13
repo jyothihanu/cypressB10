@@ -1,5 +1,5 @@
 
-/// <reference types="cypress" />
+
 describe('dropdown', function () {
     // it function to identify test
     it('Scenario 1', function (){
